@@ -1,0 +1,25 @@
+# Notes
+
+- https://github.com/joaopalmeiro/vue-social-media-icons
+- https://seaborn.pydata.org/tutorial/color_palettes.html#qualitative-color-palettes
+- https://matplotlib.org/stable/users/explain/colors/colormaps.html
+- https://sciviscolor.org/colormaps/
+- https://proplot.readthedocs.io/en/stable/colormaps.html
+- https://proplot.readthedocs.io/en/stable/cycles.html
+- http://medialab.github.io/iwanthue/
+- https://github.com/d3/d3-scale-chromatic/blob/main/package.json
+- https://d3js.org/d3-scale-chromatic
+- https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/types/d3-scale-chromatic/index.d.ts
+- https://www.typescriptlang.org/docs/handbook/2/objects.html#the-readonlyarray-type
+- https://vitejs.dev/guide/build.html#library-mode
+- https://github.com/vitejs/vite/tree/main/packages/create-vite/template-vanilla-ts
+- https://github.com/vitejs/vite/tree/main/packages/create-vite/template-vue-ts
+- https://www.totaltypescript.com/tsconfig-cheat-sheet
+- https://github.com/vitejs/vite/blob/main/packages/create-vite/template-vanilla-ts/tsconfig.json
+- https://github.com/vitejs/vite/blob/main/packages/create-vite/template-vue-ts/tsconfig.json
+- https://github.com/vitejs/vite/blob/main/packages/create-vite/template-vue-ts/tsconfig.node.json
+- https://www.typescriptlang.org/tsconfig#lib
+- https://www.typescriptlang.org/docs/handbook/project-references.html#overall-structure
+- https://github.com/vuejs/create-vue/tree/main/template/tsconfig/base
+- https://github.com/vuejs/tsconfig/blob/main/tsconfig.json
+- https://stephango.com/flexoki
