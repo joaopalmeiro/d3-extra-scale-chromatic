@@ -13,6 +13,14 @@ npm install
 ```
 
 ```bash
+npm run lint
+```
+
+```bash
+npm run format
+```
+
+```bash
 npm run build
 ```
 

@@ -55,7 +55,7 @@ npm install -D typescript vite @types/node@18.18
 ```
 
 ```bash
-npm install -D tsup typescript @arethetypeswrong/cli
+npm install -D tsup typescript @arethetypeswrong/cli prettier
 ```
 
 ## Snippets

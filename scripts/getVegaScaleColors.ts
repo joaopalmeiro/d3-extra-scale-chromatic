@@ -1,0 +1,11 @@
+// Commands:
+// npm install vega-scale --no-save
+// npx jiti scripts/getVegaScaleColors.ts
+
+import { scheme } from "vega-scale";
+
+// https://github.com/vega/vega/blob/v5.25.0/packages/vega-scale/src/palettes.js
+
+const tableau20Name = "tableau20";
+const tableau20Scheme = scheme("tableau20");
+console.log(tableau20Name, tableau20Scheme, tableau20Scheme.length);

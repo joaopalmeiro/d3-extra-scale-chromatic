@@ -1,35 +1,37 @@
 {
-    "name": "d3-extra-scale-chromatic",
-    "description": "Extra color scales for D3, following d3-scale-chromatic.",
-    "version": "0.0.0",
-    "type": "module",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/joaopalmeiro/d3-extra-scale-chromatic.git"
-    },
-    "author": "João Palmeiro",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/joaopalmeiro/d3-extra-scale-chromatic/issues"
-    },
-    "homepage": "https://github.com/joaopalmeiro/d3-extra-scale-chromatic#readme",
-    "files": [
-        "dist"
-    ],
-    "main": "dist/index.cjs",
-    "module": "dist/index.js",
-    "types": "dist/index.d.ts",
-    "exports": {
-        "import": "./dist/index.js",
-        "require": "./dist/index.cjs"
-    },
-    "scripts": {
-        "build": "tsup",
-        "lint:types": "attw --pack ."
-    },
-    "devDependencies": {
-        "@arethetypeswrong/cli": "0.12.1",
-        "tsup": "7.2.0",
-        "typescript": "5.2.2"
-    }
+  "name": "d3-extra-scale-chromatic",
+  "description": "Extra color scales for D3, following d3-scale-chromatic.",
+  "version": "0.0.0",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joaopalmeiro/d3-extra-scale-chromatic.git"
+  },
+  "author": "João Palmeiro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joaopalmeiro/d3-extra-scale-chromatic/issues"
+  },
+  "homepage": "https://github.com/joaopalmeiro/d3-extra-scale-chromatic#readme",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    "import": "./dist/index.js",
+    "require": "./dist/index.cjs"
+  },
+  "scripts": {
+    "build": "tsup",
+    "lint": "attw --pack .",
+    "format": "prettier . --write --log-level debug"
+  },
+  "devDependencies": {
+    "@arethetypeswrong/cli": "0.12.1",
+    "prettier": "3.0.3",
+    "tsup": "7.2.0",
+    "typescript": "5.2.2"
+  }
 }
