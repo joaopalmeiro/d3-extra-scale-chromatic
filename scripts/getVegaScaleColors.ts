@@ -7,5 +7,9 @@ import { scheme } from "vega-scale";
 // https://github.com/vega/vega/blob/v5.25.0/packages/vega-scale/src/palettes.js
 
 const tableau20Name = "tableau20";
-const tableau20Scheme = scheme("tableau20");
+const tableau20Scheme = scheme(tableau20Name);
 console.log(tableau20Name, tableau20Scheme, tableau20Scheme.length);
+
+const category20Name = "category20";
+const category20Scheme = scheme(category20Name);
+console.log(category20Name, category20Scheme, category20Scheme.length);
