@@ -49,6 +49,13 @@
 - https://vega.github.io/vega/docs/schemes/#categorical
 - https://github.com/d3/d3/blob/main/docs/components/ColorSwatches.vue
 - https://vitepress.dev/guide/getting-started
+- https://github.com/carbon-design-system/carbon-charts/blob/v1.13.6/packages/core/scss/_color-palette.scss
+- https://carbondesignsystem.com/data-visualization/color-palettes/#categorical-palettes
+- https://github.com/plentycode/sass-export
+- https://github.com/carbon-design-system/carbon-charts/tree/v1.13.6/packages/core
+- `npm install @carbon/charts --no-save`
+- `npx sass --load-path=node_modules --no-source-map node_modules/@carbon/charts/scss/_color-palette.scss carbon.css`
+- `npx sass-export node_modules/@carbon/charts/scss/_color-palette.scss -o carbon-color-palettes.json -d "node_modules/"`
 
 ## Commands
 
