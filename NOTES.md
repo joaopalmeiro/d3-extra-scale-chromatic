@@ -47,6 +47,8 @@
 - https://github.com/arethetypeswrong/arethetypeswrong.github.io/blob/main/docs/problems/UntypedResolution.md
 - https://d3js.org/d3-scale-chromatic/categorical
 - https://vega.github.io/vega/docs/schemes/#categorical
+- https://github.com/d3/d3/blob/main/docs/components/ColorSwatches.vue
+- https://vitepress.dev/guide/getting-started
 
 ## Commands
 
