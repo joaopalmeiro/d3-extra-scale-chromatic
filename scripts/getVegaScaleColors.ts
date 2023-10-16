@@ -17,3 +17,7 @@ console.log(category20Name, category20Scheme, category20Scheme.length);
 const category20bName = "category20b";
 const category20bScheme = scheme(category20bName);
 console.log(category20bName, category20bScheme, category20bScheme.length);
+
+const category20cName = "category20c";
+const category20cScheme = scheme(category20cName);
+console.log(category20cName, category20cScheme, category20cScheme.length);
