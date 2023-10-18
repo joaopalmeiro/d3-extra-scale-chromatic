@@ -1,3 +1,4 @@
+export { default as schemeCarbonDark14 } from "./categorical/CarbonDark14";
 export { default as schemeCarbonLight14 } from "./categorical/CarbonLight14";
 export { default as schemeCategory20 } from "./categorical/Category20";
 export { default as schemeCategory20b } from "./categorical/Category20b";

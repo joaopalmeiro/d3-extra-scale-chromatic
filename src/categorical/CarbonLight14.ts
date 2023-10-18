@@ -1,6 +1,7 @@
 // Source:
 // - https://carbondesignsystem.com/data-visualization/color-palettes/#categorical-palettes
-// - https://github.com/carbon-design-system/carbon-charts/blob/v1.13.6/packages/core/scss/_color-palette.scss
+// - https://github.com/carbon-design-system/carbon-charts/blob/v1.13.6/packages/core/scss/_color-palette.scss#L108
+// - https://github.com/carbon-design-system/carbon/blob/v11.40.0/packages/colors/src/colors.js
 // - https://github.com/carbon-design-system/carbon/pull/3957
 // - https://github.com/carbon-design-system/carbon-website/blob/main/src/pages/data-visualization/color-palettes/index.mdx
 
