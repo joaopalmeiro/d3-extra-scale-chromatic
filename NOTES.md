@@ -56,6 +56,14 @@
 - `npm install @carbon/charts --no-save`
 - `npx sass --load-path=node_modules --no-source-map node_modules/@carbon/charts/scss/_color-palette.scss carbon.css`
 - `npx sass-export node_modules/@carbon/charts/scss/_color-palette.scss -o carbon-color-palettes.json -d "node_modules/"`
+- https://github.com/carbon-design-system/carbon/blob/v11.40.0/packages/colors/src/colors.js
+- https://www.falldowngoboone.com/blog/share-variables-between-javascript-and-css/
+- https://github.com/egoist/ts-lib-starter
+- https://spacejelly.dev/posts/how-to-export-sass-variables-to-javascript-with-next-js/
+- https://github.com/jairmedeiros/scss-json
+- https://github.com/salesforce-ux/scss-parser
+- https://github.com/parcel-bundler/lightningcss + https://lightningcss.dev/docs.html
+- https://github.com/linkedin/eyeglass
 
 ## Commands
 
