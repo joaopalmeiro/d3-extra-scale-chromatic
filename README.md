@@ -17,19 +17,23 @@ npm run lint
 ```
 
 ```bash
-npm run format
-```
-
-```bash
 npm run build
 ```
 
 ```bash
-npm pack --dry-run
+npm run docs:index
 ```
 
 ```bash
 npm run docs:dev
+```
+
+```bash
+npm run format
+```
+
+```bash
+npm pack --dry-run
 ```
 
 ## Deployment

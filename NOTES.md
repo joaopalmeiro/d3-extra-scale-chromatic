@@ -70,6 +70,7 @@
 - https://github.com/vuejs/vitepress/blob/v1.0.0-rc.22/src/client/theme-default/support/socialIcons.ts
 - https://vitepress.dev/reference/default-theme-config#sociallinks
 - https://github.com/jonschlinkert/gray-matter
+- `npm install -D vitepress vue`
 
 ## Commands
 
@@ -82,11 +83,7 @@ npm install -D tsup typescript @arethetypeswrong/cli prettier
 ```
 
 ```bash
-npm install -D vitepress
-```
-
-```bash
-npm install -D vitepress vue
+npm install -D vitepress gray-matter
 ```
 
 ```bash

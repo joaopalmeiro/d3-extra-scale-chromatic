@@ -10,7 +10,7 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config#rewrites
 // https://github.com/vuejs/vitepress/blob/main/docs/guide/getting-started.md?plain=1
 export default defineConfig({
-  lang: 'en-US',
+  lang: "en-US",
   title: "d3-extra-scale-chromatic",
   description: "Extra color scales for D3, following d3-scale-chromatic.",
   themeConfig: {
@@ -35,12 +35,17 @@ export default defineConfig({
       {
         icon: "github",
         link: "https://github.com/joaopalmeiro/d3-extra-scale-chromatic",
-        ariaLabel: "GitHub repo"
+        ariaLabel: "GitHub repo",
       },
     ],
     search: {
       provider: "local",
     },
+    editLink: {
+      pattern:
+        "https://github.com/joaopalmeiro/d3-extra-scale-chromatic/edit/main/docs/:path",
+    },
   },
   cleanUrls: true,
+  lastUpdated: true,
 });
