@@ -72,6 +72,8 @@
 - https://github.com/jonschlinkert/gray-matter
 - `npm install -D vitepress vue`
 - https://en.wikipedia.org/wiki/Source_code
+- https://surge.sh/help/resetting-your-password
+- `npm install -D surge`
 
 ## Commands
 
@@ -84,11 +86,19 @@ npm install -D tsup typescript @arethetypeswrong/cli prettier
 ```
 
 ```bash
+rm -rf node_modules/ && npm install -D vitepress
+```
+
+```bash
 npm install -D vitepress gray-matter
 ```
 
 ```bash
 npx vitepress init
+```
+
+```bash
+npx surge --help
 ```
 
 ## Snippets

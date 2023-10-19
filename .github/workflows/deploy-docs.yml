@@ -1,0 +1,26 @@
+# https://thecodersblog.com/deploying-static-website-surge-github-actions
+# https://surge.sh/
+# https://vitepress.dev/guide/deploy#surge
+# https://github.com/joaopalmeiro/jupyterlab-icons-viewer#deployment-surge
+# https://github.com/yavisht/deploy-via-surge.sh-github-action-template
+# https://github.com/yavisht/deploy-via-surge.sh-github-action-template/blob/master/.github/workflows/deployment.yml
+
+name: Deploy documentation to Surge
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v3
+        with:
+          node-version-file: ".nvmrc"
+      - run: npm install
+      - run: npm run docs:build
+      - run: npm install --global surge
+      - run: surge docs/.vitepress/dist https://d3-extra-scale-chromatic.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
