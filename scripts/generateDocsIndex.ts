@@ -37,6 +37,11 @@ const indexContent = matter.stringify(
           text: "View on npm",
           link: "https://www.npmjs.com/package/d3-extra-scale-chromatic",
         },
+        {
+          theme: "alt",
+          text: "View on GitHub",
+          link: "https://github.com/joaopalmeiro/d3-extra-scale-chromatic",
+        },
       ],
     },
     features: [
