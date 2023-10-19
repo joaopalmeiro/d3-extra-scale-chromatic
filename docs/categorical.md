@@ -13,7 +13,7 @@ import {
   schemePajamasLight,
   schemePlotly,
   schemeTableau20,
-} from "../";
+} from "../src";
 import ColorSwatch from "./components/ColorSwatch.vue";
 </script>
 
