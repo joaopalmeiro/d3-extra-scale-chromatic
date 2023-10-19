@@ -1,7 +1,7 @@
 {
   "name": "d3-extra-scale-chromatic",
   "description": "Extra color scales for D3, following d3-scale-chromatic.",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "repository": {
     "type": "git",
