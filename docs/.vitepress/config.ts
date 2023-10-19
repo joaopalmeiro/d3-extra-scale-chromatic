@@ -9,6 +9,7 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/guide/routing#route-rewrites
 // https://vitepress.dev/reference/site-config#rewrites
 // https://github.com/vuejs/vitepress/blob/main/docs/guide/getting-started.md?plain=1
+// https://github.com/d3/d3/blob/main/docs/d3-scale-chromatic/categorical.md?plain=1
 export default defineConfig({
   lang: "en-US",
   title: "d3-extra-scale-chromatic",

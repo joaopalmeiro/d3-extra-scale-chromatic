@@ -1,11 +1,12 @@
 import matter from "gray-matter";
-import { writeFileSync, readdirSync } from "node:fs";
+import { readdirSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 
 import { description, name, version } from "../package.json";
 
 const outputPath = resolve(__dirname, "../docs/index.md");
 
+// https://nodejs.dev/en/learn/working-with-folders-in-nodejs/#read-the-content-of-a-directory
 const numberCategoricalSchemes = readdirSync(
   resolve(__dirname, "../src/categorical"),
 ).length;
