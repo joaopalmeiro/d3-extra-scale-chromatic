@@ -3,7 +3,7 @@ layout: home
 titleTemplate: "Extra color scales for D3, following d3-scale-chromatic."
 hero:
   name: d3-extra-scale-chromatic
-  text: v0.0.0
+  text: v0.1.0
   tagline: "Extra color scales for D3, following d3-scale-chromatic."
   actions:
     - theme: brand
