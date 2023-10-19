@@ -1,0 +1,25 @@
+# https://github.com/joaopalmeiro/vue-social-media-icons/blob/main/.github/workflows/npm-publish.yml
+# https://github.com/egoist/ts-lib-starter/blob/main/.github/workflows/ci.yml
+# https://github.com/actions/checkout
+
+name: Publish package to npm
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v3
+        with:
+          node-version-file: ".nvmrc"
+          registry-url: "https://registry.npmjs.org/"
+      - run: npm install
+      - run: npm run build
+      - run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
