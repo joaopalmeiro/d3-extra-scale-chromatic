@@ -101,6 +101,10 @@ npx vitepress init
 npx surge --help
 ```
 
+```bash
+npx surge token
+```
+
 ## Snippets
 
 ### `tsconfig.json` file
