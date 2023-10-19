@@ -1,6 +1,7 @@
 // Source:
 // - https://github.com/proplot-dev/proplot/blob/v0.9.7/proplot/cycles/FlatUI.hex
 // - https://proplot.readthedocs.io/en/latest/cycles.html#Included-color-cycles
+// - https://flatuicolors.com/palette/defo
 
 const scheme: ReadonlyArray<string> = [
   "#3498db",
