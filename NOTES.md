@@ -64,6 +64,7 @@
 - https://github.com/salesforce-ux/scss-parser
 - https://github.com/parcel-bundler/lightningcss + https://lightningcss.dev/docs.html
 - https://github.com/linkedin/eyeglass
+- https://gitlab.com/gitlab-org/gitlab-ui/-/blob/v66.34.0/src/utils/utils.js#L57
 
 ## Commands
 
