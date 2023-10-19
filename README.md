@@ -27,3 +27,25 @@ npm run build
 ```bash
 npm pack --dry-run
 ```
+
+```bash
+npm run docs:dev
+```
+
+## Deployment
+
+```bash
+npm version --no-git-tag-version patch
+```
+
+```bash
+npm version --no-git-tag-version minor
+```
+
+```bash
+npm version --no-git-tag-version major
+```
+
+Create a tag on [GitHub Desktop](https://github.blog/2020-05-12-create-and-push-tags-in-the-latest-github-desktop-2-5-release/).
+
+Check [GitHub](https://github.com/joaopalmeiro/d3-extra-scale-chromatic/actions) and [npm](https://www.npmjs.com/package/d3-extra-scale-chromatic).

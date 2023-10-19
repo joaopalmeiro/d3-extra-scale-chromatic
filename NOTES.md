@@ -65,6 +65,11 @@
 - https://github.com/parcel-bundler/lightningcss + https://lightningcss.dev/docs.html
 - https://github.com/linkedin/eyeglass
 - https://gitlab.com/gitlab-org/gitlab-ui/-/blob/v66.34.0/src/utils/utils.js#L57
+- https://vitepress.dev/guide/deploy#surge
+- https://github.com/vuejs/vitepress/blob/v1.0.0-rc.22/src/client/theme-default/components/VPSocialLink.vue
+- https://github.com/vuejs/vitepress/blob/v1.0.0-rc.22/src/client/theme-default/support/socialIcons.ts
+- https://vitepress.dev/reference/default-theme-config#sociallinks
+- https://github.com/jonschlinkert/gray-matter
 
 ## Commands
 
@@ -74,6 +79,18 @@ npm install -D typescript vite @types/node@18.18
 
 ```bash
 npm install -D tsup typescript @arethetypeswrong/cli prettier
+```
+
+```bash
+npm install -D vitepress
+```
+
+```bash
+npm install -D vitepress vue
+```
+
+```bash
+npx vitepress init
 ```
 
 ## Snippets
