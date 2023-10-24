@@ -75,6 +75,30 @@
 - https://surge.sh/help/resetting-your-password
 - `npm install -D surge`
 
+## Sequential Schemes
+
+- https://d3js.org/d3-scale-chromatic/sequential#schemeGreens
+- https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/src/sequential-single/Greens.js
+- https://colorbrewer2.org/#type=sequential&scheme=Greens&n=9
+- https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/src/ramp.js
+- https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/src/colors.js
+- https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/src/index.js#L38
+- https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/src/sequential-multi/viridis.js
+- https://observablehq.com/@philippkoytek/color-interpolations
+- https://d3js.org/d3-interpolate/value#piecewise
+- https://d3js.org/d3-interpolate/color#interpolateRgbBasis
+- https://carbondesignsystem.com/data-visualization/color-palettes/#monochromatic
+- https://carbondesignsystem.com/data-visualization/complex-charts#heat-maps
+- https://github.com/carbon-design-system/carbon-website/blob/73502ea21a3503dd8c0669765329264f1fb87ab1/src/pages/data-visualization/complex-charts/index.mdx#L68
+- https://github.com/carbon-design-system/carbon-website/blob/73502ea21a3503dd8c0669765329264f1fb87ab1/src/data/data-visualization/index.js
+- https://observablehq.com/@d3/quantile-quantize-and-threshold-scales
+- https://d3js.org/d3-scale/quantize#scaleQuantize
+- https://github.com/carbon-design-system/carbon-charts/blob/v1.13.6/packages/core/src/components/graphs/heatmap.ts#L119
+- https://github.com/carbon-design-system/carbon-charts/blob/v1.13.6/packages/core/src/model/heatmap.ts#L288
+- https://github.com/carbon-design-system/carbon-charts/blob/v1.13.6/packages/core/src/model/heatmap.ts#L300
+- https://github.com/carbon-design-system/carbon-charts/blob/v1.13.6/packages/core/src/components/essentials/color-scale-legend.ts#L213
+- https://github.com/vega/vega/blob/v5.25.0/packages/vega-scale/src/interpolate.js
+
 ## Commands
 
 ```bash
