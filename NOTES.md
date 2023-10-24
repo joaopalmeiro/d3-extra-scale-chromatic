@@ -82,6 +82,7 @@
 - https://colorbrewer2.org/#type=sequential&scheme=Greens&n=9
 - https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/src/ramp.js
 - https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/src/colors.js
+- https://observablehq.com/@d3/colorbrewer-splines
 - https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/src/index.js#L38
 - https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/src/sequential-multi/viridis.js
 - https://observablehq.com/@philippkoytek/color-interpolations
