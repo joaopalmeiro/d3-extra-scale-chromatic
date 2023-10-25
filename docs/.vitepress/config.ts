@@ -1,4 +1,5 @@
 import { defineConfig } from "vitepress";
+import socialIcons from "vitepress-social-media-icons";
 
 // https://vitepress.dev/reference/site-config
 // https://vitepress.dev/reference/default-theme-config
@@ -34,9 +35,21 @@ export default defineConfig({
     ],
     socialLinks: [
       {
-        icon: "github",
+        // icon: "github",
+        // https://vitepress.dev/reference/default-theme-config#sociallinks
+        // https://github.com/vuejs/vitepress/blob/v1.0.0-rc.22/src/client/theme-default/support/socialIcons.ts
+        icon: {
+          svg: socialIcons.github,
+        },
         link: "https://github.com/joaopalmeiro/d3-extra-scale-chromatic",
         ariaLabel: "GitHub repo",
+      },
+      {
+        icon: {
+          svg: socialIcons.npm,
+        },
+        link: "https://www.npmjs.com/package/d3-extra-scale-chromatic",
+        ariaLabel: "npm package",
       },
     ],
     search: {

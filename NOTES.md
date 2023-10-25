@@ -159,6 +159,10 @@ npx surge --help
 npx surge token
 ```
 
+```bash
+npm install -D vitepress-social-media-icons
+```
+
 ## Snippets
 
 ### `tsconfig.json` file
