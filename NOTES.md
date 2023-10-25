@@ -87,7 +87,22 @@
   - https://www.vis4.net/chromajs/#scale-correctlightness
   - https://www.vis4.net/chromajs/#scale-padding
 - https://github.com/ben-rogerson/twin.macro
-- https://github.com/google/palette.js/
+- https://github.com/google/palette.js/ + http://google.github.io/palette.js/
+- https://github.com/google/palette.js/commit/8418158452401c15d276d9632b88933aa581718f
+- https://davidmathlogic.com/colorblind/#%23D81B60-%231E88E5-%23FFC107-%23004D40
+- https://personal.sron.nl/~pault/ + https://personal.sron.nl/~pault/data/colourschemes.pdf
+- https://personal.sron.nl/~pault/#sec:qualitative
+- https://personal.sron.nl/~pault/data/tol_colors.py
+- https://cran.r-project.org/web/packages/khroma/vignettes/tol.html
+- https://github.com/tesselle/khroma
+- https://github.com/tesselle/khroma/blob/v1.11.0/data-raw/schemes_PaulTol.R#L43
+- https://docs.bokeh.org/en/latest/docs/reference/palettes.html#accessible-palettes
+- https://github.com/bokeh/bokeh/blob/3.3.0/bokehjs/src/lib/api/palettes.ts#L701
+- https://github.com/bokeh/bokeh/blob/3.3.0/bokehjs/src/lib/api/palettes.ts#L853
+- https://github.com/bokeh/bokeh/blob/3.3.0/bokehjs/src/lib/api/palettes.ts#L997
+- https://docs.bokeh.org/en/latest/docs/reference/palettes.html#bokeh-palette
+- https://colorcet.holoviz.org/user_guide/Categorical.html
+- https://colorcet.holoviz.org/user_guide/index.html
 
 ## Sequential Schemes
 
