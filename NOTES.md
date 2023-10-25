@@ -74,6 +74,20 @@
 - https://en.wikipedia.org/wiki/Source_code
 - https://surge.sh/help/resetting-your-password
 - `npm install -D surge`
+- https://github.com/Renumics/spotlight/blob/v1.5.4/src/palettes.ts
+- https://www.npmjs.com/package/chroma-js
+- https://www.vis4.net/chromajs/#color-scales:
+  - https://www.vis4.net/chromajs/#chroma-scale + https://www.vis4.net/chromajs/#scale-mode
+  - Default: `RGB`
+  - "(...) sometimes, two-color `RGB` gradients goes through kind of grayish colors, and `Lab` interpolation produces better results (...)"
+  - "(...) `RGB` interpolation can get very dark around the center. You can achieve better results using linear RGB interpolation [(`lrgb`)] (...)"
+  - "Other useful interpolation modes could be `HSL` or `Lch`, though both tend to produce too saturated/glowing gradients."
+  - https://www.vis4.net/chromajs/#scale-gamma
+  - "Gamma-correction can be used to "shift" a scale's center more the the beginning (gamma < 1) or end (gamma > 1), typically used to "even" [(_igualar_)] the lightness gradient."
+  - https://www.vis4.net/chromajs/#scale-correctlightness
+  - https://www.vis4.net/chromajs/#scale-padding
+- https://github.com/ben-rogerson/twin.macro
+- https://github.com/google/palette.js/
 
 ## Sequential Schemes
 
